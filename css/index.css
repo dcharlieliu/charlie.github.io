@@ -1,7 +1,7 @@
 /* css reset*/
 * {
 	margin: 0 auto;
-	font-family: "微软雅黑";
+	font-family:'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
@@ -14,7 +14,7 @@ body {
 	background-color: #f1f3f7;
 	color: #555;
 	font-size: 14px;
-	font-family: "Microsoft YaHei", "simsun", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 td, th, caption {
@@ -48,7 +48,7 @@ ol, ul, li {
 input, textarea, select, button {
 	outline: none;
 	font-size: 14px;
-	font-family: "Microsoft YaHei", "simsun", "Helvetica Neue", Arial, Helvetica, sans-serif;;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif；
 }
 
 table {
@@ -83,7 +83,7 @@ audio:not([controls]) {
 	left:50%;
 	margin-top:-188px;
 	margin-left:-188px;
-	border-radius:2px;
+	border-radius:8px;
 	background:#fff;
 	box-shadow:0 20px 20px rgba(0,0,0,0.08);
 	width:376px;
@@ -92,7 +92,7 @@ audio:not([controls]) {
 }
 .within-img{
 	width:40px;
-	height:40px;
+	height: 40px;
 	overflow:hidden;
 	border-radius:50%;
 	margin-left:0px;
@@ -107,22 +107,22 @@ audio:not([controls]) {
 	padding-top:16px;
 }
 .within-mark h1{
-	font-size:26px;
 	font-weight:bold;
+	font-size: 26px;
 	line-height: 26px;
-	color: #030303;
+	margin-bottom: 8px;
+	color: #1D2129;
 }
 .within-mark h2{
-	font-size:16px;
-    line-height: 16px;
-	margin-top: 10px;
-	color: #030303;
+	font-size: 16px;
+	line-height: 16px;
+	color: #1D2129;
 }
 
 .within-text{
-	min-height:128px;
+	font-size: 14px;
 	padding-top:24px;
-	line-height:20px;
+	line-height:24px;
 	color: #8F8E94;
 }
 
@@ -137,9 +137,9 @@ audio:not([controls]) {
 }
 .within-icon ul li{
 	float:left;
-	width:20px;
-	height:20px;
-	margin-right:16px;
+	width:24px;
+	height:24px;
+	margin-right: 12px;
 }
 .within-icon ul li a{
 	display:block;
@@ -149,8 +149,9 @@ audio:not([controls]) {
 	background-size:24px auto;
 }
 .within-bottom{
+	line-height: 14px;
 	font-size:14px;
-	padding-top:12px;
+	padding-top:16px;
 	color: #8F8E94;
 }
 
@@ -266,6 +267,12 @@ audio:not([controls]) {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
+}
+
+
+@media (max-width:500px){
+	.within{width:-webkit-calc(100% - 48px); width:-moz-calc(100% - 48px); width:-ms-calc(100% - 48px); width:-o-calc(100% - 48px); width:calc(100% - 48px); left:24px; margin-left:0px; height:auto; margin-top:0px;}
+	
 }
 
 /*栅格*/

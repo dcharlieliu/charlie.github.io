@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="48px" viewBox="0 0 24 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="768" y="352" width="376" height="376" rx="8"></rect>
+        <filter x="-17.8%" y="-10.9%" width="135.6%" height="135.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="26" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="18" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.556862745   0 0 0 0 0.556862745   0 0 0 0 0.576470588  0 0 0 0.196133379 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-872.000000, -648.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-2" transform="translate(791.000000, 376.000000)">
+                <g id="*Group-3">
+                    <g id="text">
+                        <g id="icon" transform="translate(1.000000, 272.000000)">
+                            <g id="Group">
+                                <g id="facebook" transform="translate(80.000000, 0.000000)">
+                                    <g>
+                                        <rect id="Rectangle" fill="#8E8E93" x="0" y="0" width="24" height="24" rx="12"></rect>
+                                        <path d="M13.9393939,7.54545455 L15.6304242,7.49072727 L15.6363636,5 L13.5151515,5 C10.8343636,5.02375758 10.1212121,6.45430303 10.1212121,8.39393939 L10.1212121,9.66666667 L8,9.66666667 L8,12.2121212 L10.1212121,12.2121212 L10.1212121,19 L13.0909091,19 L13.0909091,12.2121212 L15.6363636,12.2121212 L15.6304242,9.68109091 L13.0909091,9.66666667 L13.0909091,8.39393939 C13.0909091,7.92939394 12.9907879,7.59339394 13.9393939,7.54545455 Z" id="Shape" fill="#FFFFFF"></path>
+                                    </g>
+                                    <g transform="translate(0.000000, 24.000000)">
+                                        <rect id="Rectangle" fill="#43609C" x="0" y="0" width="24" height="24" rx="12"></rect>
+                                        <path d="M13.9393939,7.54545455 L15.6304242,7.49072727 L15.6363636,5 L13.5151515,5 C10.8343636,5.02375758 10.1212121,6.45430303 10.1212121,8.39393939 L10.1212121,9.66666667 L8,9.66666667 L8,12.2121212 L10.1212121,12.2121212 L10.1212121,19 L13.0909091,19 L13.0909091,12.2121212 L15.6363636,12.2121212 L15.6304242,9.68109091 L13.0909091,9.66666667 L13.0909091,8.39393939 C13.0909091,7.92939394 12.9907879,7.59339394 13.9393939,7.54545455 Z" id="Shape" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
