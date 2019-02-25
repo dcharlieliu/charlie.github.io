@@ -83,7 +83,7 @@ audio:not([controls]) {
 	left:50%;
 	margin-top:-188px;
 	margin-left:-188px;
-	border-radius:0px;
+	border-radius:4px;
 	background:#fff;
 	box-shadow:0 20px 20px rgba(0,0,0,0.08);
 	width:376px;
