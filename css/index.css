@@ -11,7 +11,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 
 body {
 	background: fixed;
-	background-color: #f1f3f7;
+	background-color: #F7F7F7;
 	color: #555;
 	font-size: 14px;
 	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif
@@ -85,7 +85,7 @@ audio:not([controls]) {
 	margin-left:-188px;
 	border-radius:4px;
 	background:#fff;
-	box-shadow:0 20px 20px rgba(0,0,0,0.08);
+	box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
 	width:376px;
 	height:376px;
 	padding:24px;
@@ -156,15 +156,15 @@ audio:not([controls]) {
 }
 
 .within{
-	-webkit-animation:within 0.3s ease-out;
+	/* -webkit-animation:within 0.3s ease-out;
 	-moz-animation:within 0.3s ease-out;
 	-ms-animation:within 0.3s ease-out;
-	-o-animation:within 0.3s ease-out;
-	animation:within 0.3s ease-out;
+	-o-animation:within 0.3s ease-out; */
+	/* animation:within 0.3s ease-out; */
 }
 
 .within>div{
-	-moz-animation: bus 0.6s ease-out both;
+	/* -moz-animation: bus 0.6s ease-out both;
 	-ms-animation: bus 0.6s ease-out both;
 	-webkit-animation: bus 0.6s ease-out both;
 	-o-animation: bus 0.6s ease-out both;
@@ -174,7 +174,7 @@ audio:not([controls]) {
 	-ms-animation-delay: 0.3s;
 	-webkit-animation-delay: 0.3s;
 	-o-animation-delay: 0.3s;
-	animation-delay: 0.3s;
+	animation-delay: 0.3s; */
 }
 
 @-webkit-keyframes within{
